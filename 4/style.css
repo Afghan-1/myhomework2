@@ -1,0 +1,79 @@
+.container {
+  position: relative;
+  width: 2000px;
+  height: 850px;
+  border: 1px solid purple;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+}
+
+.box1 {
+  background: lightblue;
+  top: 0;
+  left: 0;
+}
+
+.box2 {
+  background: teal;
+  top: 150px;
+  left: 150px;
+}
+
+.box3 {
+  background: purple;
+  top: 300px;
+  left: 300px;
+}
+
+.box4 {
+  background: yellowgreen;
+  top: 450px;
+  left: 450px;
+}
+
+.box5 {
+  background: rgb(50, 205, 202);
+  top: 300px;
+  left: 600px;
+  z-index: 1;
+}
+
+.box6 {
+  background: rgb(115, 50, 205);
+  top: 150px;
+  left: 750px;
+  z-index: 2;
+}
+
+
+.box7 {
+  background: rgb(179, 50, 205);
+  top: 0px;
+  left: 900px;
+  z-index: 3;
+}
+
+.box8 {
+  background: rgb(84, 50, 205);
+  top: 150px;
+  left: 1050px;
+  z-index: 4;
+}
+
+.box9 {
+  background: rgb(205, 50, 76);
+  top: 300px;
+  left: 1200px;
+  z-index: 5;
+}
+
+.box10 {
+  background: yellowgreen;
+  top: 450px;
+  left: 1350px;
+  z-index: 6;
+}
